@@ -4,6 +4,9 @@
 #include <algorithm>
 #include <cmath>
 
+namespace mvbb
+{
+
 const double EPSILON = 0.0001;
 
 ostream& operator<< (ostream& os, const Point& point) 
@@ -167,4 +170,6 @@ Point Point::crossProduct(const Point &other) const
 	    _z * other._x - _x * other._z,
 	    _x * other._y - _y * other._x);
     return  c;
+}
+
 }

@@ -11,6 +11,8 @@
 #include "real.h"
 #include <math.h>
 
+namespace mvbb
+{
 
 template <int  DIM>
 class PointGeneric
@@ -374,4 +376,4 @@ public:
 
 /* point.h - End of File ------------------------------------------*/
 
-
+}

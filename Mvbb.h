@@ -16,6 +16,9 @@
 
 using namespace std;
 
+namespace mvbb
+{
+
 /// A structure to group the MVBB core parameters.
 struct MvbbParameters
 {	
@@ -354,6 +357,6 @@ class MVBB
   char m_bbivfile[128];
 };
 
+}
+
 #endif
-
-

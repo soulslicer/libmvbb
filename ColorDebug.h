@@ -10,6 +10,9 @@
 
 using namespace std;
 
+namespace mvbb
+{
+
 namespace 
 {   
   enum COLOR
@@ -381,6 +384,8 @@ namespace
   unsigned int ColorDebug::badgerTab = 0;
   bool ColorDebug::verbose = false;
   pair<bool,bool> ColorDebug::tabBoldness = pair<bool,bool>(false, false);
+}
+
 }
 
 #endif // _COLORDEBUG_H_

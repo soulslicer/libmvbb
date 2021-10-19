@@ -12,8 +12,11 @@
 #include <math.h>   
 
 using namespace std;
-/// The class Point represents a basic 3D point class.
 
+namespace mvbb
+{
+
+/// The class Point represents a basic 3D point class.
 class Point 
 {
   /// Makes the face sendable to an output stream (console output).
@@ -370,5 +373,7 @@ class Point
 
 /// We handle a vector simple the same way as a point.
 typedef Point Vector;
+
+}
 
 #endif //_POINT_

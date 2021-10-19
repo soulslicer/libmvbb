@@ -5,6 +5,9 @@
 //#define DEBUG
 //#define _DEBUG_
 
+namespace mvbb
+{
+
 #define NONE (-1)
 const int CONVHULL  = 30;
 const double MY_EPS = 0.005;
@@ -1189,4 +1192,6 @@ std::vector<float> MVBB::bbox_side_directions()
     directions.push_back(((bbCSet.begin())->bb).dir_3[2]);
 
     return directions;
+}
+
 }
