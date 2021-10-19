@@ -14,7 +14,6 @@ include_directories(
   ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-
 add_library(mvbb SHARED ${mvbb_lib_SRC})
 target_link_libraries(mvbb)
 
