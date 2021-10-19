@@ -18,5 +18,5 @@ add_library(mvbb SHARED ${mvbb_lib_SRC})
 target_link_libraries(mvbb)
 
 install(TARGETS mvbb DESTINATION lib)
-install(FILES ${mvbb_lib_HDR} DESTINATION include)
+install(FILES ${mvbb_lib_HDR} DESTINATION include/mvbb)
 install(FILES LICENSE DESTINATION license)
